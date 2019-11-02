@@ -16,4 +16,4 @@ set(CMAKE_ANDROID_NDK /Users/allstarw.wzl/app/AndroidSDK/ndk-bundle)
 set(CMAKE_ANDROID_STL_TYPE gnustl_static)
 
 # 指定生成目标
-add_executable(main main.c)
+add_executable(main copy.c main.c)
